@@ -160,32 +160,27 @@ namespace WindowsFormsApp9
 
         private void BillingForm_Paint(object sender, PaintEventArgs e)
         {
-            /*Panel pnl = (Panel)sender;
+            if (!(sender is Panel pnl)) return; // safe-guard: ignore non-Panel painters
+
             e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            e.Graphics.Clear(pnl.Parent?.BackColor ?? this.BackColor);
 
-            // Clear background to match the parent white panel
-            e.Graphics.Clear(pnl.Parent.BackColor);
-
-            // Modern radius (8-10 is best for textboxes)
             int radius = 10;
-            GraphicsPath path = new GraphicsPath();
-            path.AddArc(0, 0, radius, radius, 180, 90);
-            path.AddArc(pnl.Width - radius - 1, 0, radius, radius, 270, 90);
-            path.AddArc(pnl.Width - radius - 1, pnl.Height - radius - 1, radius, radius, 0, 90);
-            path.AddArc(0, pnl.Height - radius - 1, radius, radius, 90, 90);
-            path.CloseFigure();
-            // Fill the "Input Well"
-            using (SolidBrush brush = new SolidBrush(pnl.BackColor))
+            using (GraphicsPath path = new GraphicsPath())
             {
-                e.Graphics.FillPath(brush, path);
-            }
+                path.AddArc(0, 0, radius, radius, 180, 90);
+                path.AddArc(pnl.Width - radius - 1, 0, radius, radius, 270, 90);
+                path.AddArc(pnl.Width - radius - 1, pnl.Height - radius - 1, radius, radius, 0, 90);
+                path.AddArc(0, pnl.Height - radius - 1, radius, radius, 90, 90);
+                path.CloseFigure();
 
-            // Optional: Add a subtle focus border
-            Color borderColor = pnl.ContainsFocus ? Color.FromArgb(94, 53, 177) : Color.FromArgb(220, 220, 220);
-            using (Pen pen = new Pen(borderColor, 1))
-            {
-                e.Graphics.DrawPath(pen, path);
-            }*/
+                using (SolidBrush brush = new SolidBrush(pnl.BackColor))
+                    e.Graphics.FillPath(brush, path);
+
+                Color borderColor = pnl.ContainsFocus ? Color.FromArgb(94, 53, 177) : Color.FromArgb(220, 220, 220);
+                using (Pen pen = new Pen(borderColor, 1))
+                    e.Graphics.DrawPath(pen, path);
+            }
         }
 
         private void btnDelete_Paint(object sender, PaintEventArgs e)
