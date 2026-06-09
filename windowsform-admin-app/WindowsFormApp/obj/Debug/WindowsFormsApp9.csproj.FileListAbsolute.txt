@@ -489,3 +489,11 @@ C:\Users\Sampath\Desktop\WindowsFormsApp202\WindowsFormsApp9\bin\Debug\BouncyCas
 C:\Users\Sampath\Desktop\WindowsFormsApp202\WindowsFormsApp9\bin\Debug\itextsharp.xml
 C:\Users\Sampath\Desktop\WindowsFormsApp202\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.ProgressForm.resources
 C:\Users\Sampath\Desktop\WindowsFormsApp202\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.BillingForm.resources
+C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.App.config
+C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.exe
+C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.App.config
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.pdb
