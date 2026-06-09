@@ -493,3 +493,7 @@ C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\Wind
 C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
 C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.exe
 C:\GitHub\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.App.config
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Acer\Desktop\git\online-ordering-and-order-management-system\windowsform-admin-app\WindowsFormApp\obj\Debug\WindowsFormsApp9.pdb
