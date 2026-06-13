@@ -1,0 +1,51 @@
+# =====================
+# Visual Studio / C#
+# =====================
+
+.vs/
+bin/
+obj/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+Debug/
+Release/
+
+# =====================
+# Flutter / Dart
+# =====================
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+build/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# Generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE files
+.idea/
+*.iml
+
+# =====================
+# Logs
+# =====================
+
+*.log
+
+# =====================
+# OS Files
+# =====================
+
+.DS_Store
+Thumbs.db
